@@ -1,0 +1,26 @@
+.sidebar {
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-button:hover {
+  background-color: #d9534f;
+  color: #ffffff;
+  border-color: #c9302c;
+}
